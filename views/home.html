@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercado Liebre-Argentina</title>
     <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script
+      src="https://kit.fontawesome.com/291ac0831b.js"
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <img src="/images/logo-mercado-liebre.svg" alt="logo de mercado liebre" width="410"/>
-      <form action="">
-        <input type="text" placeholder="Buscar productos" />
-      </form>
-      <p>Comprá en cuotas y sin tarjeta de credito</p>
-      <nav>
+      <nav class="searchBar">
+        <form action="">
+          <input type="text" placeholder="Buscar productos, marcas" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <p class="compraEnCuotas"> <i class="fa-solid fa-hand-holding-dollar"></i></i>Comprá en cuotas y sin tarjeta de credito</p>
+        </form>
+      </nav>
+      
+      <nav class="navBar">
         <ul>
           <li>Ofertas</li>
           <li>Tiendas Oficiales</li>
           <li>Vender</li>
           <li>Ayuda</li>
-          <li>Creá tu cuenta</li>
-          <li>Ingresá</li>
-          <li>Mis compras</li>
         </ul>
       </nav>
+      
+      <nav class="loginBar">
+        <ul>
+          <li>Creá tu cuenta<i class="fa-solid fa-id-card"></i></li>
+          <li>Ingresá<i class="fa-solid fa-right-to-bracket"></i></li>
+          <li>Mis compras<i class="fas fa-shopping-cart"></i></li>
+        </ul>
+      </nav>
+      <div class="burger-menu"><i class="fa-solid fa-bars fa-xl"></i></div>
     </header>
     <main>
       <img src="/images/img-home-banner.jpg" alt="banner home" width="400"
