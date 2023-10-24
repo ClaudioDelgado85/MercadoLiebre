@@ -15,7 +15,47 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     box-sizing: border-box;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+body {
+    background-color: var(--Gris_claro);   
+}
+.main_titulos{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+main{
+    text-align: center;
+}
+main h4{
+    font-size: 16px;
+}
+main p {
+    font-size: 16px;
+}
+main img {
+    width: 85vw;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    margin:10px;
+    background-color:white;
+}
+footer i {
+    font-size: 2em;
+    color:var(--Celeste);
+    margin-bottom: 20px;
+}
+footer article{
+    margin-bottom: 40px;
 }
