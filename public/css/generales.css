@@ -34,7 +34,8 @@ body {
     font-size: 18px;
 }
 main{
-    text-align: center;
+    margin: 0 auto;
+    width: 90vw;
 }
 main h4{
     font-size: 16px;
@@ -43,7 +44,7 @@ main p {
     font-size: 16px;
 }
 main img {
-    width: 85vw;
+    width: 100%;
 }
 footer{
     text-align: center;

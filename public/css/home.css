@@ -1,10 +1,11 @@
-@media(min-width:360px){
+
     header{
         background-color: var(--Amarillo);
         padding-bottom: 20px;
     }
     .banner{
         width: 100vw;
+
     }
 
     header img {
@@ -35,10 +36,55 @@
         text-align: center;
         border-radius: 8px;
         font-size: 18px;
-
     }
+
+    .main_section_article{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #ffff;
+    }
+    .main_section_article_div{
+        width: 100%;
+        padding:15px ;
+        border-top: 1px solid #ebebeb;
+    }
+    section article div h4 {
+        display: none;
+    }
+    .navBar,.loginBar{
+        display: none;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    
+
+
+
+@media(min-width:361px){
+    header{
+            background-color: green;
+        }
+
+    .main_section_article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .burger-menu {
+        display: none;
+    }
+    .navBar,.loginBar{
+        display: block;
+    }
+
+    form {
+        margin-bottom: 0px;
+    }
+
 }
-@media(min-width:860px){
+@media(min-width:769px){
     header{
         background-color: red;
     }
