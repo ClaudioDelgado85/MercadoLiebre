@@ -1,0 +1,39 @@
+.register-body{
+    background-color: #fff;
+    padding: 20px;
+}
+.register-main-body {
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: #EBEBEB;
+    padding: 20px;
+    justify-content: center;
+}
+.register-main-body form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.datos_personales {
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+}
+.titulos{
+    font-weight: bold;
+    font-size: 16px;
+}
+label {
+    font-size: 16px; 
+}
+.perfil-interes{
+    margin:0 30px; 
+}
+@media (min-width:769px){
+    .register-main-body {
+       
+        max-width:30%;
+        
+    }
+}
