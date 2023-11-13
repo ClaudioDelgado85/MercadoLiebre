@@ -25,6 +25,9 @@
     height: 40px;
     font-size: 16px;
 }
+.login-boton:hover{
+    background-color: #0022AA;
+}
 
 .boton:hover {
     background-color: #0056b3;

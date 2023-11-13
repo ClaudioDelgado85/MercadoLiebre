@@ -79,8 +79,41 @@
         border-top: 1px solid #ebebeb;
     }
     section article div h4 {
-        display: none;
+       /* display: none; */
+       color: white;
     }
+
+    /*section article div h4:hover{
+        display: block;
+        background-color:rgb(18, 89, 196);
+        color: black ;
+        transition: all 0.5s;
+        border-radius: 5px;
+    }*/
+    .main_section_article:hover{
+        box-shadow: 0px 0px 10px rgb(18, 89, 196);
+    }
+    .main_section_article:hover h4{
+        display: block;
+        background-color:rgb(18, 89, 196);
+        color: black ;
+        transition: background-color 0.5s,color 1s;
+        border-radius: 5px;
+    }
+    .rotate-icon:hover{
+        transform: rotate(-90deg);
+        transition: all 0.5s;
+        
+    }
+    .article-footer:hover .icon-footer{
+        color: rgb(233, 201, 37);
+        transition: all 0.5s;
+    }
+    .article-footer:hover{
+        box-shadow: 0px 0px 10px rgb(233, 201, 37);
+        transition: all 0.5s;
+    }
+
     
     
     .main_article_div_precio_descuento{
@@ -169,5 +202,10 @@
     
     .main_section_article {
         width: 23%;
+    }
+    .section-footer{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
